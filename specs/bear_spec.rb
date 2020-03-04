@@ -24,6 +24,10 @@ class TestBear < MiniTest::Test
     assert_equal("Grizzly", @bear.type)
   end
 
+  def test_bear_can_roar()
+    assert_equal("Roar!", @bear.bear_can_roar())
+  end
+
   def test_bear_starts_with_empty_stomach()
     assert_equal(0, @bear.fish_in_stomach_count())
   end

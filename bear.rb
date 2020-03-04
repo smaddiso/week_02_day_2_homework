@@ -16,22 +16,8 @@ attr_accessor :name, :type, :fish_in_stomach
     @fish_in_stomach.push(fish)
   end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  def bear_can_roar()
+    return "Roar!"
+  end
 
 end
